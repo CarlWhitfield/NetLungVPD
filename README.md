@@ -17,7 +17,7 @@ where the `-v` option maps the local directory `/path/to/sim` to the virtual dir
 
 ## Required command line inputs
 
-Five input files are required to run the executable from the command line: a .options file, a .params file, and three files that define the network geometry. The files defining a network geometry are (i) a .nodes file, which provides the location of each node, (ii) a .termnodes file, which lists the indices of all of the terminal nodes, and (iii) a .branches file, which provides the radius of each edge and the nodes it is connected to.
+Five input files are required to run the executable from the command line: a .options file, a .params file, and three files that define the network geometry. Example options and params files are given in the directory `options_params`. The files defining a network geometry are (i) a .nodes file, which provides the location of each node, (ii) a .termnodes file, which lists the indices of all of the terminal nodes, and (iii) a .branches file, which provides the radius of each edge and the nodes it is connected to. Examples of these are published at https://doi.org/10.5281/zenodo.3709105 .
 
 ## Simulation outputs
 
