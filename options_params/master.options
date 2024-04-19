@@ -1,0 +1,20 @@
+Tree f     %f = from file
+Acinus_type t  %b = bag, t=tree, 
+Acinus_model w   %acinus tree model: w = weibel, h = henry
+Flow_Type p    %p=poiseuille, n = pedley
+Flow_Input s   %s=sinusoidal, d=step function
+Elasticity_Model l   %l=linear, t=tawhai model   
+Gravity_Model n      %n = no grav, l=linear grav
+Gravity_Direction z   %x,y, or z
+Diffusivity_Type s   %m = molecular, t = taylor, s = scherer
+Simulate_washin t     %true or false
+Gravity_negative t    %gravity direction is negative - true or false
+Deposition_formula_diffusion j      %i = ingham (1975), y = yu & cohen (1994), j = ingham (1991), s = simple derived formula
+Deposition_formula_impaction z      %y = yeh & schum (1980), z = zhang et al. (1997)
+Deposition_formula_sedimentation p      %s = simple derived formula, p = pich (1972), wang (1975)
+Flow_BC t   %true or false
+Print_acini_vtk t   %true or false
+Print_acini_csv f   %true or false
+Impaction_both_directions f     %true or false. False turns off impaction deposition except when flow is proximal to distal
+Inhalation_mode c   %b = bolus, c = continuous
+Sim_deposition t    %true or false

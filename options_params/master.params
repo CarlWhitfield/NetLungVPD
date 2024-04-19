@@ -1,0 +1,26 @@
+Min_elements_per_airway 8
+FRC 3.3   %Litres
+%Airway_dead_space 0.1  %if model is not from file %Litres
+Tidal_volume 0.625     %Litres
+Mouth_volume 0.0   %Litres
+Tidal_breath_time 5   %seconds
+Lung_elastance 6.82    %cmH20/L
+Bag_resistance 0.6   %cmH20s/L
+Bag_inertance 0     %cmH20s^2/L
+Mouth_resistance 0.0     %cmH20s/L
+Air_viscosity 1.93E-07      %cmH20s
+Air_density 1.138              %kg/m^3
+Max_element_length 0.2     %mm
+Time_step 0.01    %seconds
+Gas_diffusivity 0.225    %cm^2/s
+%Washin_end_time 200   %seconds, time to simulate wash-in
+Total_breaths 1    %number of washout breaths to simulate (if flow not from file)
+%Gravity_press_gradient 0.038    %cmH20/mm
+Print_timestep 5    %seconds
+Acin_elements_per_airway 8
+%Acin_length_rad_ratio 3.6
+%Acin_asymm_factor 0.25
+%Acin_scale_factor 0.125
+Particle_size 0.004     %mm
+%Bolus_start_volume 0.0
+%Bolus_volume 0.5
